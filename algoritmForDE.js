@@ -32,3 +32,28 @@ fs.readFile(app.baseDir+'e_elaborate.in.txt', 'utf-8', (err, lines)=>{
         app.sortClient(client);
     }
 })
+
+app.sortClient =  function(client){
+
+    let sorted = new Set(client.filter((value)=>value.disLike.split(' ')[0]<=1).map((value)=>value.like.replace(/[0-9]/,'')));
+    let sortArr = new Set();
+    let result = '';
+    for (let value of sorted){
+        for (let val of value.split(' ') ){
+            sortArr.add(val);
+        }
+       
+   };
+      console.log(sortArr.size);
+   sortArr.forEach((value, i)=>{
+       result+=' '+value; 
+})
+    fs.open(path.join(__dirname,'./output/')+'e_elaborate.txt','wx', (err, fd)=>{
+         if(!err){
+             fs.writeFile(fd,result=sortArr.size-1+result,(err)=>{
+                 if(!err){
+                     console.log('file created;')
+                 }
+             })
+         }
+     })}
