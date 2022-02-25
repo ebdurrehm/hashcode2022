@@ -9,6 +9,7 @@ none of the ingredients they dislike are on the pizza
 Each client is OK with additional ingredients they neither like or dislike being present on the pizza. Your task is to choose which ingredients to put on your only pizza type, to maximize the number of clients that will visit your pizzeria.
 
 ##Input
+
 The first line contains one integer 1≤C≤105 - the number of potential clients.
 The following 2×C lines describe the clients’ preferences in the following format:
 First line contains integer 1≤L≤5, followed by L names of ingredients a client likes, delimited by spaces.
