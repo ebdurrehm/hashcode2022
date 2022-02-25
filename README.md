@@ -15,16 +15,17 @@ First line contains integer 1≤L≤5, followed by L names of ingredients a clie
 Second line contains integer 0≤D≤5, followed by D names of ingredients a client dislikes, delimited by spaces.
 Each ingredient name consists of between 1 and 15 ASCII characters. Each character is one of the lowercase letters (a-z) or a digit (0-9).
 
-> 3
-> 2 cheese peppers
-> 0
-> 1 basil
-> 1 pineapple
-> 2 mushrooms tomatoes
-> 1 basil
+      3
+      2 cheese peppers
+      0
+      1 basil
+      1 pineapple
+      2 mushrooms tomatoes
+      1 basil
 
 ##Output
-> 4 cheese mushrooms tomatoes peppers
+
+      4 cheese mushrooms tomatoes peppers
 
 ##Submission
 The submission should consist of one line consisting of a single number 0≤N followed by a list of N ingredients to put on the only pizza available in the pizzeria, separated by spaces. The list of ingredients should contain only the ingredients mentioned by at least one client, without duplicates.
