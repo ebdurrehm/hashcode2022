@@ -24,6 +24,7 @@ Each ingredient name consists of between 1 and 15 ASCII characters. Each charact
       1 basil
 
 ##Output
+
       4 cheese mushrooms tomatoes peppers
 
 ##Submission
