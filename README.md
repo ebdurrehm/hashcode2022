@@ -15,13 +15,13 @@ First line contains integer 1≤L≤5, followed by L names of ingredients a clie
 Second line contains integer 0≤D≤5, followed by D names of ingredients a client dislikes, delimited by spaces.
 Each ingredient name consists of between 1 and 15 ASCII characters. Each character is one of the lowercase letters (a-z) or a digit (0-9).
 
-  3
+  `3
   2 cheese peppers
   0
   1 basil
   1 pineapple
   2 mushrooms tomatoes
-  1 basil
+  1 basil`
 
 ##Output
 > 4 cheese mushrooms tomatoes peppers
