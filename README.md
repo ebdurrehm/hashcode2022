@@ -29,6 +29,7 @@ Each ingredient name consists of between 1 and 15 ASCII characters. Each charact
       4 cheese mushrooms tomatoes peppers
 
 ##Submission
+
 The submission should consist of one line consisting of a single number 0≤N followed by a list of N ingredients to put on the only pizza available in the pizzeria, separated by spaces. The list of ingredients should contain only the ingredients mentioned by at least one client, without duplicates.
 
 ##Scoring
